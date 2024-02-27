@@ -1,0 +1,29 @@
+{
+  "name": "3d-animated-cube",
+  "version": "1.0.0",
+  "description": "Ejemplo de página web donde se muestra un cubo animado con html, css y javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techMechDev/3d-animated-cube.git"
+  },
+  "keywords": [
+    "cube",
+    "cubo",
+    "3d",
+    "animation",
+    "animación",
+    "html",
+    "javascript",
+    "css"
+  ],
+  "author": "TechMechDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techMechDev/3d-animated-cube/issues"
+  },
+  "homepage": "https://github.com/techMechDev/3d-animated-cube#readme"
+}
