@@ -1,0 +1,50 @@
+section.botonera {
+    display: grid;
+    grid-template-areas: 
+        "start start start start start"
+        "plus spin radius manual manual"
+        "minnus open view manual manual"
+        "nav nav nav nav nav";
+    grid-template-columns: repeat(4, 2fr) 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 50ch;
+    gap: 3px;
+
+    button {
+        padding: 18px 6px;
+        background-image: linear-gradient(#fbfafb, #fab222 5%, #fec030 5%,#fdb21e 10%, #faad1e 5%, #fbab21 5%, #faac1f 70%, #bf782f);
+        color: white;
+        border: 2px inset #6E6E6E;
+        border-radius: 20% 3% 30% 14%;
+        font-size: 2.5ch;
+    }
+
+    button:nth-child(1) {
+        grid-area: start;
+    }
+    button:nth-child(2) {
+        grid-area: nav;
+    }
+    button:nth-child(3) {
+        grid-area: radius;
+    }
+    button:nth-child(4) {
+        grid-area: view;
+    }
+    button:nth-child(5) {
+        grid-area: plus;
+    }
+    button:nth-child(6) {
+        grid-area: minnus;
+    }
+    button:nth-child(7) {
+        grid-area: spin;
+    }
+    button:nth-child(8) {
+        grid-area: open;
+    }
+    button:nth-child(9) {
+        grid-area: manual;
+    }
+
+}

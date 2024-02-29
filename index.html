@@ -6,9 +6,31 @@
     <meta name="author" content="TechMechDev" />
     <meta name="description" content="Ejemplo de página web donde se muestra un cubo animado con html, css y javascript." />
     <link rel="icon" href="./favico.ico" type="image/c-icon" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>3D Cube</title>
 </head>
 <body>
-    
+    <section class="botonera">
+        <button onclick="play()">Inicio</button>
+        <button onclick="pause()">Pausa</button>
+        <button onclick="bordes()">Bordes</button>
+        <button onclick="visible()">Invisible</button>
+        <button onclick="mas()">+</button>
+        <button onclick="menos()">-</button>
+        <button onclick="giros()">Caras</button>
+        <button onclick="abrir()">Abrir</button>
+        <button onclick="manual()">Manual</button>
+    </section>
+    <main class="contenedor">
+        <section id="cubo">
+            <div id="caraF" class="cara"></div>
+            <div id="caraP" class="cara"></div>
+            <div id="caraI" class="cara"></div>
+            <div id="caraD" class="cara"></div>
+            <div id="caraS" class="cara"></div>
+            <div id="caraIn" class="cara"></div>
+        </section>
+    </main>
+    <script src="./script.js" type="text/javascript"></script>
 </body>
 </html>
